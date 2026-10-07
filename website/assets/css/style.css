@@ -105,6 +105,22 @@ button, input, select { font: inherit; }
 .hero-meta strong { font-size: 13px; }
 .hero-meta small { color: #b9c7e6; font-size: 11px; }
 
+.hero-organizers {
+  grid-column: 1 / -1; display: flex; justify-content: space-between; gap: 28px;
+}
+.organizer-card {
+  display: flex; align-items: center; gap: 20px; width: 46%; padding: 18px;
+  border: 1px solid rgba(255,255,255,.22); border-radius: 22px;
+  background: rgba(11,23,53,.72); box-shadow: 0 14px 35px rgba(0,0,0,.15);
+}
+.organizer-card img {
+  flex: 0 0 126px; width: 126px; height: 126px; object-fit: cover;
+  border-radius: 16px; background: #fff; border: 2px solid rgba(255,255,255,.8);
+}
+.organizer-card > div { min-width: 0; }
+.organizer-role { margin: 0 0 7px; color: #9beaf6; font-size: 12px; font-weight: 700; line-height: 1.5; }
+.organizer-card h2 { margin: 0; color: #fff; font-size: 21px; line-height: 1.5; }
+
 .countdown-card {
   padding: 30px; border: 1px solid rgba(255,255,255,.19); border-radius: 26px;
   background: rgba(255,255,255,.10); backdrop-filter: blur(22px); box-shadow: var(--shadow);
@@ -213,6 +229,8 @@ footer { padding: 34px 0; color: #b9c4da; background: #071128; }
   .menu-toggle { display: block; }
   .hero-grid, .split, .showcase-grid, .registration-grid { grid-template-columns: 1fr; }
   .hero-grid { gap: 36px; }
+  .hero-organizers { gap: 18px; }
+  .organizer-card { width: 50%; flex-direction: column; text-align: center; }
   .countdown-card { max-width: 600px; }
   .timeline { grid-template-columns: repeat(2,1fr); }
   .stats-grid { grid-template-columns: repeat(2,1fr); }
@@ -225,6 +243,10 @@ footer { padding: 34px 0; color: #b9c4da; background: #071128; }
   .section { padding: 70px 0; }
   .hero { min-height: auto; }
   .hero-grid { padding-block: 64px; }
+  .hero-organizers { flex-direction: column; }
+  .organizer-card { width: 100%; flex-direction: row; text-align: left; gap: 16px; padding: 16px; }
+  .organizer-card img { flex-basis: 100px; width: 100px; height: 100px; }
+  .organizer-card h2 { font-size: 18px; }
   .hero h1 { font-size: 37px; }
   .hero-lead { font-size: 15px; }
   .hero-actions .btn { width: 100%; }
