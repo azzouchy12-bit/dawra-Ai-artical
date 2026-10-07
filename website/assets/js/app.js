@@ -55,8 +55,9 @@ nav?.querySelectorAll("a").forEach((link) => {
 
 const registrationForm = document.getElementById("registrationForm");
 const formMessage = document.getElementById("formMessage");
+const submitButton = registrationForm?.querySelector('button[type="submit"]');
 
-registrationForm?.addEventListener("submit", (event) => {
+registrationForm?.addEventListener("submit", async (event) => {
   event.preventDefault();
 
   if (new Date() > registrationDeadline) {
@@ -65,6 +66,62 @@ registrationForm?.addEventListener("submit", (event) => {
     return;
   }
 
-  formMessage.textContent = "تم التحقق من الاستمارة بنجاح. هذه نسخة الواجهة فقط؛ سنربط زر الإرسال بقاعدة التسجيل بعد اعتماد التصميم.";
-  formMessage.className = "form-message show success";
+  const formData = new FormData(registrationForm);
+
+  if (formData.get("_honey")) {
+    formMessage.textContent = "تم إرسال طلب التسجيل بنجاح.";
+    formMessage.className = "form-message show success";
+    registrationForm.reset();
+    return;
+  }
+
+  const payload = {
+    "الاسم واللقب": formData.get("fullName"),
+    "البريد الإلكتروني": formData.get("email"),
+    "رقم الهاتف": formData.get("phone"),
+    "المؤسسة / الجامعة": formData.get("institution"),
+    "الصفة": formData.get("profile"),
+    "التخصص": formData.get("specialty"),
+    "وقت التسجيل": new Intl.DateTimeFormat("ar-DZ", {
+      dateStyle: "full",
+      timeStyle: "medium",
+      timeZone: "Africa/Algiers"
+    }).format(new Date()),
+    "_subject": "طلب تسجيل جديد - دورة الذكاء الاصطناعي 26 نوفمبر 2026",
+    "_template": "table",
+    "_url": window.location.href
+  };
+
+  submitButton.disabled = true;
+  submitButton.textContent = "جارٍ إرسال الطلب...";
+  formMessage.textContent = "يتم الآن إرسال بيانات التسجيل...";
+  formMessage.className = "form-message show";
+
+  try {
+    const response = await fetch("https://formsubmit.co/ajax/phychy1001@gmail.com", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify(payload)
+    });
+
+    const data = await response.json().catch(() => ({}));
+
+    if (!response.ok) {
+      throw new Error(data.message || "تعذر إرسال الطلب");
+    }
+
+    formMessage.textContent = "تم إرسال طلب التسجيل بنجاح. شكرًا لك، سنستخدم بياناتك فقط للتواصل المتعلق بالدورة.";
+    formMessage.className = "form-message show success";
+    registrationForm.reset();
+  } catch (error) {
+    console.error("Registration submission failed:", error);
+    formMessage.textContent = "تعذر إرسال طلب التسجيل الآن. يرجى المحاولة مرة أخرى بعد قليل.";
+    formMessage.className = "form-message show";
+  } finally {
+    submitButton.disabled = false;
+    submitButton.textContent = "إرسال طلب التسجيل";
+  }
 });
