@@ -3,14 +3,241 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dawra AI Artical</title>
+  <meta name="description" content="دورة تكوينية مجانية حول الذكاء الاصطناعي في البحث العلمي وكتابة المقال الأكاديمي - كلية العلوم والتكنولوجيا، جامعة محمد خيضر بسكرة.">
+  <title>دورة الذكاء الاصطناعي والكتابة الأكاديمية | جامعة بسكرة</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <main>
-    <h1>Dawra AI Artical</h1>
-    <p>الموقع الرسمي للدورة التكوينية المجانية حول الذكاء الاصطناعي والكتابة الأكاديمية.</p>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#home" aria-label="الصفحة الرئيسية">
+        <span class="brand-mark">AI</span>
+        <span>
+          <strong>Dawra AI Article</strong>
+          <small>جامعة محمد خيضر بسكرة</small>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="فتح القائمة" aria-expanded="false">☰</button>
+      <nav class="nav" aria-label="التنقل الرئيسي">
+        <a href="#about">عن الدورة</a>
+        <a href="#program">البرنامج</a>
+        <a href="#register">التسجيل</a>
+        <a href="#faq">الأسئلة الشائعة</a>
+      </nav>
+      <a class="btn btn-small btn-primary desktop-cta" href="#register">سجّل الآن</a>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="eyebrow">دورة تكوينية مجانية • كلية العلوم والتكنولوجيا</div>
+          <h1>الذكاء الاصطناعي في <span>البحث العلمي وكتابة المقال الأكاديمي</span></h1>
+          <p class="hero-lead">
+            دورة تطبيقية تساعد الطلبة والباحثين والأساتذة على توظيف أدوات الذكاء الاصطناعي
+            بفعالية ومسؤولية في البحث، التخطيط، الكتابة، المراجعة والتحقق من المراجع.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#register">التسجيل في الدورة</a>
+            <a class="btn btn-ghost" href="#program">استعرض البرنامج</a>
+          </div>
+          <div class="hero-meta">
+            <div><span>📅</span><strong>26 نوفمبر 2026</strong><small>موعد الدورة</small></div>
+            <div><span>⏳</span><strong>16 نوفمبر 2026</strong><small>آخر أجل للتسجيل</small></div>
+            <div><span>📍</span><strong>كلية العلوم والتكنولوجيا</strong><small>جامعة محمد خيضر بسكرة</small></div>
+          </div>
+        </div>
+
+        <aside class="countdown-card" aria-label="العد التنازلي للتسجيل">
+          <span class="countdown-label">التسجيل مفتوح الآن</span>
+          <h2>ينتهي التسجيل خلال</h2>
+          <div class="countdown" id="countdown">
+            <div><strong id="days">--</strong><span>يوم</span></div>
+            <div><strong id="hours">--</strong><span>ساعة</span></div>
+            <div><strong id="minutes">--</strong><span>دقيقة</span></div>
+            <div><strong id="seconds">--</strong><span>ثانية</span></div>
+          </div>
+          <div class="deadline-note">
+            آخر أجل: <strong>الاثنين 16 نوفمبر 2026 — 23:59</strong>
+          </div>
+          <a class="btn btn-primary btn-block" href="#register">احجز مكانك</a>
+          <p class="microcopy">التسجيل مجاني • المقاعد محدودة</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="stats-strip" aria-label="معلومات مختصرة">
+      <div class="container stats-grid">
+        <div><strong>100%</strong><span>دورة مجانية</span></div>
+        <div><strong>تطبيقي</strong><span>أمثلة وتمارين مباشرة</span></div>
+        <div><strong>أخلاقي</strong><span>استخدام مسؤول للذكاء الاصطناعي</span></div>
+        <div><strong>أكاديمي</strong><span>موجه للجامعة والبحث العلمي</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container split">
+        <div class="media-card">
+          <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=85" alt="طلبة جامعيون يتعلمون معًا">
+          <div class="media-badge">من الفكرة إلى مقال أكاديمي أكثر جودة</div>
+        </div>
+        <div>
+          <span class="section-kicker">لماذا هذه الدورة؟</span>
+          <h2>تعلم استخدام الذكاء الاصطناعي كأداة مساعدة للباحث، لا كبديل عنه</h2>
+          <p class="section-text">
+            تركز الدورة على الاستخدام العملي والمنهجي لأدوات الذكاء الاصطناعي، مع التحقق من
+            المخرجات، تجنب المراجع المختلقة، احترام أخلاقيات النشر، وتحسين جودة الكتابة الأكاديمية.
+          </p>
+          <div class="feature-grid">
+            <article><span>🔎</span><h3>بحث أذكى</h3><p>تنظيم الأفكار والكلمات المفتاحية ومسارات الاستكشاف.</p></article>
+            <article><span>✍️</span><h3>كتابة أفضل</h3><p>بناء الهيكل وصقل الأسلوب وتحسين الوضوح الأكاديمي.</p></article>
+            <article><span>📚</span><h3>مراجع موثوقة</h3><p>التحقق من المراجع وكشف الاستشهادات الوهمية أو غير الدقيقة.</p></article>
+            <article><span>🛡️</span><h3>استخدام مسؤول</h3><p>فهم حدود الذكاء الاصطناعي وسياسات الإفصاح والنزاهة العلمية.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="program">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">برنامج الدورة</span>
+          <h2>مسار تدريبي منظم من البحث إلى المراجعة النهائية</h2>
+          <p>محاور عملية قابلة للتطوير وفق البرنامج النهائي للدورة.</p>
+        </div>
+        <div class="timeline">
+          <article><span class="step">01</span><div><h3>مدخل إلى الذكاء الاصطناعي التوليدي</h3><p>المفاهيم الأساسية، الفرص، القيود، وأنماط الاستخدام في الجامعة.</p></div></article>
+          <article><span class="step">02</span><div><h3>البحث العلمي وصياغة الإشكالية</h3><p>تحويل الموضوع إلى أسئلة بحث، كلمات مفتاحية، وخطة عمل واضحة.</p></div></article>
+          <article><span class="step">03</span><div><h3>المراجعة الأدبية وتنظيم المصادر</h3><p>الفرز، التلخيص، المقارنة، وبناء خريطة للدراسات السابقة.</p></div></article>
+          <article><span class="step">04</span><div><h3>كتابة المقال الأكاديمي</h3><p>العنوان، الملخص، المقدمة، المنهجية، النتائج، المناقشة والخاتمة.</p></div></article>
+          <article><span class="step">05</span><div><h3>التحقق من المراجع والهلوسة</h3><p>طرق التحقق من الادعاءات والمصادر وعدم قبول مخرجات الذكاء الاصطناعي دون مراجعة.</p></div></article>
+          <article><span class="step">06</span><div><h3>الأخلاقيات والنشر المسؤول</h3><p>الإفصاح عن الاستخدام، النزاهة الأكاديمية، وسياسات المجلات والمؤسسات.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section showcase">
+      <div class="container showcase-grid">
+        <div>
+          <span class="section-kicker light">تجربة تطبيقية</span>
+          <h2>لن نكتفي بالشرح النظري</h2>
+          <p>سيعمل المشاركون على أمثلة بحثية واقعية، ويقارنون بين مخرجات أدوات مختلفة، ثم يتعلمون كيف يراجعونها نقديًا قبل اعتماد أي جزء منها.</p>
+          <ul class="check-list">
+            <li>Prompts أكاديمية مدروسة</li>
+            <li>تحسين الصياغة دون تغيير المعنى العلمي</li>
+            <li>كشف الأخطاء والمراجع الوهمية</li>
+            <li>تدفقات عمل قابلة لإعادة الاستخدام</li>
+          </ul>
+        </div>
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=85" alt="حاسوب يستخدم في التعلم والبحث الرقمي">
+      </div>
+    </section>
+
+    <section class="section" id="register">
+      <div class="container registration-grid">
+        <div class="registration-copy">
+          <span class="section-kicker">التسجيل</span>
+          <h2>احجز مكانك في الدورة</h2>
+          <p>املأ البيانات التالية. آخر أجل للتسجيل هو <strong>16 نوفمبر 2026</strong>.</p>
+          <div class="info-box">
+            <span>📅</span>
+            <div><strong>موعد الدورة</strong><p>الخميس 26 نوفمبر 2026</p></div>
+          </div>
+          <div class="info-box">
+            <span>🏫</span>
+            <div><strong>الجهة المنظمة</strong><p>كلية العلوم والتكنولوجيا — جامعة محمد خيضر بسكرة</p></div>
+          </div>
+          <div class="info-box">
+            <span>💡</span>
+            <div><strong>طبيعة الدورة</strong><p>مجانية، أكاديمية، تطبيقية ومفتوحة للفئات الجامعية المستهدفة.</p></div>
+          </div>
+        </div>
+
+        <form class="registration-form" id="registrationForm">
+          <div class="form-head">
+            <h3>استمارة التسجيل الأولية</h3>
+            <p>يرجى إدخال معلومات صحيحة للتواصل لاحقًا.</p>
+          </div>
+          <div class="field-grid">
+            <label>الاسم واللقب
+              <input type="text" name="fullName" autocomplete="name" required placeholder="مثال: محمد أحمد">
+            </label>
+            <label>البريد الإلكتروني
+              <input type="email" name="email" autocomplete="email" required placeholder="name@example.com">
+            </label>
+            <label>رقم الهاتف
+              <input type="tel" name="phone" autocomplete="tel" required placeholder="05 / 06 / 07 ...">
+            </label>
+            <label>المؤسسة / الجامعة
+              <input type="text" name="institution" required placeholder="اسم المؤسسة">
+            </label>
+            <label>الصفة
+              <select name="profile" required>
+                <option value="">اختر الصفة</option>
+                <option>طالب ليسانس</option>
+                <option>طالب ماستر</option>
+                <option>طالب دكتوراه</option>
+                <option>أستاذ جامعي</option>
+                <option>باحث</option>
+                <option>موظف جامعي</option>
+                <option>أخرى</option>
+              </select>
+            </label>
+            <label>التخصص
+              <input type="text" name="specialty" required placeholder="مثال: إعلام آلي، هندسة، علوم...">
+            </label>
+          </div>
+          <label class="consent">
+            <input type="checkbox" required>
+            <span>أوافق على استخدام هذه البيانات لغرض تنظيم الدورة والتواصل المتعلق بها فقط.</span>
+          </label>
+          <button class="btn btn-primary btn-block" type="submit">إرسال طلب التسجيل</button>
+          <p class="form-note">ملاحظة: الواجهة جاهزة، وسيتم ربط الإرسال الفعلي بقاعدة التسجيل بعد اعتماد التصميم.</p>
+          <div class="form-message" id="formMessage" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="faq">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">الأسئلة الشائعة</span>
+          <h2>معلومات سريعة قبل التسجيل</h2>
+        </div>
+        <div class="faq-list">
+          <details><summary>هل الدورة مجانية؟</summary><p>نعم، الدورة معلنة كدورة تكوينية مجانية.</p></details>
+          <details><summary>من يمكنه المشاركة؟</summary><p>الطلبة، طلبة الدكتوراه، الباحثون، الأساتذة والمهتمون بالكتابة الأكاديمية والذكاء الاصطناعي.</p></details>
+          <details><summary>متى تُغلق التسجيلات؟</summary><p>يُغلق التسجيل يوم 16 نوفمبر 2026 الساعة 23:59 بتوقيت الجزائر.</p></details>
+          <details><summary>متى تُعقد الدورة؟</summary><p>الموعد المقترح هو الخميس 26 نوفمبر 2026.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="container final-cta-inner">
+        <div>
+          <span>جاهز للبدء؟</span>
+          <h2>طوّر طريقة استخدامك للذكاء الاصطناعي في البحث والكتابة الأكاديمية.</h2>
+        </div>
+        <a class="btn btn-light" href="#register">سجّل قبل 16 نوفمبر</a>
+      </div>
+    </section>
   </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <strong>Dawra AI Article</strong>
+        <p>كلية العلوم والتكنولوجيا — جامعة محمد خيضر بسكرة</p>
+      </div>
+      <p>© 2026 — مشروع دورة تكوينية أكاديمية.</p>
+    </div>
+  </footer>
 
   <script src="assets/js/app.js"></script>
 </body>
