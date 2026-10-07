@@ -1,0 +1,1682 @@
+{
+  "updatedAt": "2026-10-07",
+  "coverage": "partial",
+  "universitySource": "https://www.mesrs.dz/reseau-universitaire-ar/",
+  "notes": "The university list follows the Ministry directory. Faculty and department coverage is incomplete. Only associations read on official university websites are enabled. The 2021 scanned ministry directory is research material and is not imported into this live form.",
+  "universities": [
+    {
+      "name": "جامعة أبو بكر بلقايد تلمسان",
+      "website": "http://www.univ-tlemcen.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "معهد العلوم والتقنيات التطبيقية ISTA",
+          "departments": [
+            "Département des sciences"
+          ],
+          "sources": [
+            "https://ista.univ-tlemcen.dz/fr"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة احمد بن بلة وهران 1 السانية",
+      "website": "http://www.univ-oran1.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "كلية العلوم الإنسانية",
+          "departments": [
+            "قسم التعليم المشترك",
+            "قسم علم المكتبات و التوثيق",
+            "قسم علوم الإعلام و الاتصال",
+            "قسم التاريخ و علم الأثار",
+            "قسم علم المكتبات والتوثيق",
+            "قسم علوم الإعلام والاتصال",
+            "قسم التاريخ وعلم الأثار"
+          ],
+          "sources": [
+            "https://fsh.univ-oran1.dz/"
+          ]
+        },
+        {
+          "name": "كلية العلوم االإسلامية",
+          "departments": [
+            "قسم الحضارة الإسلامية",
+            "قسم العلوم الإسلامية",
+            "قسم اصول الدين",
+            "قسم أصول الدين"
+          ],
+          "sources": [
+            "https://fsi.univ-oran1.dz/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة احمد دراية أدرار",
+      "website": "https://www.univ-adrar.edu.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "كلية العلوم والتكنولوجيا (ST)",
+          "departments": [
+            "Département de Génie Civil (GC)",
+            "Département des Sciences et Technologies (ST)",
+            "Département de Génie Electrique (GE)",
+            "Département des Hydrocarbures et des Energies Renouvelables (HER)",
+            "Département de Génie Mécanique (GM)",
+            "Département de Génie des Mines (GDM)",
+            "Département de la Sécurité de l’Environnement(SE)"
+          ],
+          "sources": [
+            "https://fst.univ-adrar.edu.dz/"
+          ]
+        },
+        {
+          "name": "كلية العلوم الاقتصادية و التجارية وعلوم التسيير (SECG)",
+          "departments": [
+            "قسم العلوم الاقتصادية",
+            "قسم العلوم التجارية",
+            "قسم علوم التسيير",
+            "قسم العلوم المالية والمحاسبة"
+          ],
+          "sources": [
+            "https://fsecg.univ-adrar.edu.dz/"
+          ]
+        },
+        {
+          "name": "كلية علوم الطبيعة والحياة (SNV)",
+          "departments": [
+            "Département de Sciences Agronomiques et Biotechnologie (SAB)",
+            "Département des Sciences Biologiques (SB)"
+          ],
+          "sources": [
+            "https://fsnv.univ-adrar.edu.dz/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة الأغواط – عمار ثليجي",
+      "website": "http://www.lagh-univ.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة البليدة 1 – سعد دحلب",
+      "website": "https://ar.univ-blida.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة البليدة 2 – لونيسي علي",
+      "website": "http://www.univ-blida2.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة البويرة – آكلي محند أولحاج",
+      "website": "http://www.univ-bouira.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "كلية العلوم التطبيقية",
+          "departments": [
+            "Département de génie des procédés",
+            "Département de génie éléctrique",
+            "Département de génie civil",
+            "Département de génie mécanique"
+          ],
+          "sources": [
+            "https://site.univ-bouira.dz/fsa/"
+          ]
+        },
+        {
+          "name": "كلية علوم الطبيعية و الحياة و علوم الارض",
+          "departments": [
+            "Département Sciences Agronomiques",
+            "Département de Biologie",
+            "Département du tronc commun",
+            "Département Biologie",
+            "Département des sciences Agronomiques"
+          ],
+          "sources": [
+            "https://site.univ-bouira.dz/fsnv/"
+          ]
+        },
+        {
+          "name": "كلية الحقوق و العلوم السياسية",
+          "departments": [
+            "قسم الخاص",
+            "قسم العام"
+          ],
+          "sources": [
+            "https://site.univ-bouira.dz/fdsp/"
+          ]
+        },
+        {
+          "name": "كلية العلوم الاقتصادية التجارية و علوم التسيير",
+          "departments": [
+            "قسم العلوم الاقتصادية",
+            "قسم علوم التسيير",
+            "قسم العلوم التجارية",
+            "قسم علوم المالية والمحاسبة"
+          ],
+          "sources": [
+            "https://site.univ-bouira.dz/fecg/"
+          ]
+        },
+        {
+          "name": "كلية الآداب و اللغات",
+          "departments": [
+            "قسم اللغة و الأدب العربي",
+            "Département français",
+            "قسم اللغة والأدب العربي",
+            "Département Français",
+            "Département de la langue française -Procès-Verbal – Master externe 2025/2026"
+          ],
+          "sources": [
+            "https://site.univ-bouira.dz/fll/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة التكوين المتواصل",
+      "website": "http://www.ufc.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة الجزائر 2 – أبوالقاسم سعد الله",
+      "website": "http://www.univ-alger2.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "كلية العلوم الإنسانية",
+          "departments": [
+            "قسم التاريخ",
+            "قسم الفلسفة"
+          ],
+          "sources": [
+            "https://fsh.univ-alger2.dz/"
+          ]
+        },
+        {
+          "name": "معهد علم المكتبات و التوثيق",
+          "departments": [
+            "قسم الأرشيف",
+            "قسم علم المكتبات والتكنولوجيا"
+          ],
+          "sources": [
+            "https://ilas.univ-alger2.dz/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة الجزائر هواري بومدين للعلوم و التكنولوجيا",
+      "website": "http://www.usthb.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة الجزائر1 – بن يوسف بن خدة",
+      "website": "http://www.univ-alger.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة الجزائر3 ابراهيم سلطان شيبوط",
+      "website": "http://www.univ-alger3.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "كلية العلوم الاقتصادية و العلوم التجارية و علوم التسيير",
+          "departments": [
+            "قسم علوم التسيير",
+            "قسم العلوم التجارية",
+            "قسم العلوم الاقتصادية",
+            "قسم علوم المالية والمحاسبة"
+          ],
+          "sources": [
+            "https://fsecg.univ-alger3.dz/"
+          ]
+        },
+        {
+          "name": "كلية علوم الاعلام و الاتصال",
+          "departments": [
+            "قسم علوم الاتصال",
+            "قسم علوم الإعلام",
+            "قسم الميديا الرقمية",
+            "قسم الشهادة المزدوجة",
+            "قسم الكفاءات المزدوجة"
+          ],
+          "sources": [
+            "https://fsic.univ-alger3.dz/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة الجلفة – زيان عاشور",
+      "website": "http://www.univ-djelfa.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "كلية علوم الطبيعة و الحياة",
+          "departments": [
+            "Département d&rsquo;Agro-vétérinaire",
+            "Département de Biologie",
+            "Département des Sciences de la Terre et de l’Univers",
+            "Département Sciences Agronomiques-Planning final de Rattrapage S1 – Final",
+            "Département de Biologie Département de Biologie- Plannings d&rsquo;examens de remplacement",
+            "Département d'Agro-vétérinaire",
+            "Département Sciences Biologiques -Plannings des examens S02",
+            "Département des sciences agronomiques et vétérinaires- Planning des Rattrapages S2 (2024/2025)",
+            "قسم علوم الأرض والكون- نتائج توزيع الطلبة على تخصصات الماستر",
+            "قسم العلوم البيولوجية(كل التخصصات والمستويات)- نقاط الامتحانات الاستداركية للسداسي الثاني",
+            "Département de Biologie- Planning d&rsquo;examens de rattrapage (S1)"
+          ],
+          "sources": [
+            "http://fsnv.univ-djelfa.dz/wordpress/"
+          ]
+        },
+        {
+          "name": "كلية الآداب و اللغات و الفنون",
+          "departments": [
+            "قسم اﻷدب العربي",
+            "قسم اللغة الفرنسية",
+            "قسم اللغة الانجليزية",
+            "قسم الفنون",
+            "قسم الأدب العربي",
+            "قسم اللغات الأجنبية"
+          ],
+          "sources": [
+            "http://flla.univ-djelfa.dz/"
+          ]
+        },
+        {
+          "name": "معهد علوم وتقنيات النشاطات البدنية و الرياضية",
+          "departments": [
+            "قسم التدريب الرياضي النخبوي",
+            "قسم النشاط الرياضي المكيف",
+            "قسم النشاط الرياضي التربوي"
+          ],
+          "sources": [
+            "http://staps.univ-djelfa.dz/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة الدكتور مولاي الطاهر سعيدة",
+      "website": "https://www.univ-saida.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة الشلف – حسيبة بن بوعلي",
+      "website": "http://www.univ-chlef.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة الطارف – الشاذلي بن جديد",
+      "website": "http://univ-eltarf.dz/ucbet/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "كلية العلوم الإنسانية و الاجتماعية",
+          "departments": [
+            "قسم العلوم الاجتماعية",
+            "قسم علم النفس",
+            "قسم العلوم الإنسانية"
+          ],
+          "sources": [
+            "http://univ-eltarf.dz/ucbet/fac-hum-and-social"
+          ]
+        },
+        {
+          "name": "كلية الطبيعة و الحياة",
+          "departments": [
+            "قسم الجذع المشترك",
+            "قسم البيولوجيا",
+            "قسم علوم البيطرة",
+            "قسم العلوم الفلاحية",
+            "قسم علوم البحار"
+          ],
+          "sources": [
+            "http://univ-eltarf.dz/ucbet/fsnv/"
+          ]
+        },
+        {
+          "name": "كلية الاداب و اللغات",
+          "departments": [
+            "قسم اللغة و الأدب العربي",
+            "قسم اللغة الانجليزية",
+            "قسم اللغة الفرنسية"
+          ],
+          "sources": [
+            "http://univ-eltarf.dz/ucbet/fac-ll/"
+          ]
+        },
+        {
+          "name": "كلية الحقوق والعلوم السياسية",
+          "departments": [
+            "قسم الحقوق"
+          ],
+          "sources": [
+            "http://univ-eltarf.dz/ucbet/fac-droit/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة المدية – يحي فارس",
+      "website": "http://www.univ-medea.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة المسيلة – محمد بوضياف",
+      "website": "https://www.univ-msila.dz/ar",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة النعامة – صالحي أحمد المدعو علي",
+      "website": "https://cuniv-naama.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "معهد التكنولوجيا",
+          "departments": [
+            "قسم الهندسة الميكانيكية",
+            "قسم الهندسة الكهربائية",
+            "قسم الهندسة المدنية",
+            "قسم التعليم المشترك"
+          ],
+          "sources": [
+            "https://www.cuniv-naama.dz/institutes"
+          ]
+        },
+        {
+          "name": "معهد العلوم",
+          "departments": [
+            "قسم علوم الطبيعة والحياة",
+            "قسم الرياضيات",
+            "قسم علوم الحاسوب"
+          ],
+          "sources": [
+            "https://www.cuniv-naama.dz/institutes"
+          ]
+        },
+        {
+          "name": "معهد الاداب و اللغات",
+          "departments": [
+            "قسم اللغة الانجليزية",
+            "قسم اللغة الفرنسية",
+            "قسم اللغة العربية والأدب العربي"
+          ],
+          "sources": [
+            "https://www.cuniv-naama.dz/institutes"
+          ]
+        },
+        {
+          "name": "معهد الحقوق",
+          "departments": [
+            "الجذع المشترك",
+            "قسم القانون الخاص",
+            "قسم القانون العام"
+          ],
+          "sources": [
+            "https://www.cuniv-naama.dz/institutes"
+          ]
+        },
+        {
+          "name": "معهد العلوم الاقتصادية و علوم التسيير",
+          "departments": [
+            "قسم التعليم المشترك",
+            "قسم الاقتصاد",
+            "قسم التسيير"
+          ],
+          "sources": [
+            "https://www.cuniv-naama.dz/institutes"
+          ]
+        },
+        {
+          "name": "معهد العلوم الإنسانية والاجتماعية",
+          "departments": [
+            "قسم التعليم المشترك",
+            "قسم العلوم الاسلامية",
+            "قسم التاريخ وعلم الآثار",
+            "قسم علوم الإعلام و الاتصال و علم المكتبات"
+          ],
+          "sources": [
+            "https://www.cuniv-naama.dz/institutes"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة الوادي – حمة لخضر",
+      "website": "https://www.univ-eloued.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة أم البواقي – العربي بن مهيدي",
+      "website": "http://www.univ-oeb.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "معهد علوم وتقنيات النشاطات البدنية و الرياضية",
+          "departments": [
+            "قسم التربية البدنية والرياضية"
+          ],
+          "sources": [
+            "https://www.univ-oeb.dz/staps"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة باتنة 1 – الحاج لخضر",
+      "website": "http://www.univ-batna.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "كلية العلوم الإسلامية",
+          "departments": [
+            "قسم التعليم الأساسي في العلوم الإسلامية",
+            "قسم الشريعة",
+            "قسم أصول الدين",
+            "قسم اللغة والحضارة الإسلامية",
+            "قسم التعليم الأساسي"
+          ],
+          "sources": [
+            "https://fsi.univ-batna.dz/"
+          ]
+        },
+        {
+          "name": "كلية علوم المادة",
+          "departments": [
+            "Département de Physique",
+            "Département de Chimie",
+            "Département de chimie",
+            "Département de physique",
+            "Département d&rsquo;enseignement fondamental en SM",
+            "Département d’enseignement fondamental en SM"
+          ],
+          "sources": [
+            "https://sm.univ-batna.dz/"
+          ]
+        },
+        {
+          "name": "كلية العلوم الإنسانية و الاجتماعية",
+          "departments": [
+            "قسم التعليم المشترك في العلوم الإنسانية والاجتماعية",
+            "قسم علم الاجتماع والديموغرافيا",
+            "قسم علم النفس وعلوم التربية والأرطوفونيا",
+            "قسم الفلسفة",
+            "قسم التاريخ وعلم الآثار",
+            "قسم علوم الإعلام والاتصال وعلم المكتبات",
+            "قسم علوم الاعلام والاتصال وعلم المكتبات"
+          ],
+          "sources": [
+            "https://shs.univ-batna.dz/"
+          ]
+        },
+        {
+          "name": "كلية العلوم الاقتصادية و التجارية",
+          "departments": [
+            "قسم التعليم الأساسي",
+            "قسم العلوم الاقتصادية",
+            "قسم العلوم التجارة",
+            "قسم علوم المالية و المحاسبة",
+            "قسم علوم التسيير"
+          ],
+          "sources": [
+            "https://economie.univ-batna.dz/"
+          ]
+        },
+        {
+          "name": "كلية اللغة و الأدب العربي و الفنون",
+          "departments": [
+            "قسم اللغة و الثقافة الامازيغية",
+            "قسم اللغة العربية و علوم اللسانيات",
+            "قسم الأدب العربي و النقد",
+            "قسم الأدب و النقد",
+            "قسم اللغة و الثقافة الأمازيغية",
+            "قسم اللغة العربية و علوم اللسان"
+          ],
+          "sources": [
+            "https://lla.univ-batna.dz/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة باتنة 2 – مصطفى بن بولعيد",
+      "website": "http://www.univ-batna2.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "معهد علوم الأرض و الكون",
+          "departments": [
+            "Département de Géologie",
+            "Département de Géographie et Aménagement du Territoire ( GAT)"
+          ],
+          "sources": [
+            "http://istu.univ-batna2.dz/"
+          ]
+        },
+        {
+          "name": "كلية علوم الطبيعة و الحياة",
+          "departments": [
+            "Département d'Ecologie et Environnement",
+            "Département De Biologie des Organismes"
+          ],
+          "sources": [
+            "http://snv.univ-batna2.dz/"
+          ]
+        },
+        {
+          "name": "كلية الاداب و اللغات الأجنبية",
+          "departments": [
+            "Département de langue et littérature française",
+            "Département de langueet littérature anglaise",
+            "Département de traduction"
+          ],
+          "sources": [
+            "http://lle.univ-batna2.dz/"
+          ]
+        },
+        {
+          "name": "كلية التكنولوجيا",
+          "departments": [
+            "Département Socle Commun",
+            "Département Génie Mécanique",
+            "Département Électrotechnique",
+            "Département Électromécanique",
+            "Département Électronique",
+            "Département Génie Civil",
+            "Département Génie Industriel",
+            "Département Hydraulique",
+            "Département Génie des procédés"
+          ],
+          "sources": [
+            "http://st.univ-batna2.dz/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة بتندوف – المجاهد علي كافي",
+      "website": "http://www.cuniv-tindouf.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة بجاية – عبد الرحمان ميرة",
+      "website": "http://www.univ-bejaia.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة برج بوعريريج – محمد البشير الابراهيمي",
+      "website": "http://www.univ-bba.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "Faculté des sciences et de la technologie",
+          "departments": [
+            "قسم العلوم و التقنيات",
+            "قسم الهندسة المدنية",
+            "قسم الإلكتروميكانيك",
+            "قسم هندسة المحيط",
+            "قسم الإلكترونيك",
+            "قسم الهندسة الميكانيكية",
+            "قسم علوم المادة"
+          ],
+          "sources": [
+            "http://fst.univ-bba.dz/"
+          ]
+        },
+        {
+          "name": "Faculté des sciences sociales et humaines",
+          "departments": [
+            "قسم العلوم الاجتماعية",
+            "قسم العلوم الإنسانية",
+            "قسم التاريخ",
+            "قسم علم النفس",
+            "قسم الاعلام والاتصال"
+          ],
+          "sources": [
+            "http://fshs.univ-bba.dz/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة بسكرة – محمد خيضر",
+      "website": "http://www.univ-biskra.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "كلية الحقوق و العلوم السياسية",
+          "departments": [
+            "قسم العلوم السياسية",
+            "قسم القانون الخاص",
+            "قسم القانون العام"
+          ],
+          "sources": [
+            "https://psp.univ-biskra.dz/"
+          ]
+        },
+        {
+          "name": "كلية العلوم والتكنولوجيا",
+          "departments": [
+            "قسم التعليم المشترك في العلوم و التكنولوجيا",
+            "قسم الهندسة الكهربائية",
+            "قسم الهندسة الميكانيكية",
+            "قسم الكيمياء الصناعية",
+            "قسم الإلكترونيك والآلية"
+          ],
+          "sources": [
+            "https://psp.univ-biskra.dz/"
+          ]
+        },
+        {
+          "name": "كلية العلوم الدقيقة",
+          "departments": [
+            "قسم علوم المادة",
+            "قسم الإعلام الآلي",
+            "قسم الرياضيات"
+          ],
+          "sources": [
+            "https://psp.univ-biskra.dz/"
+          ]
+        },
+        {
+          "name": "كلية العلوم الإنسانية و الاجتماعية",
+          "departments": [
+            "قسم العلوم الإنسانية",
+            "قسم علم النفس و علوم التربية",
+            "قسم العلوم الاجتماعية",
+            "قسم الإعلام والاتصال وعلم المكتبات"
+          ],
+          "sources": [
+            "https://psp.univ-biskra.dz/"
+          ]
+        },
+        {
+          "name": "كلية العلوم الاقتصادية و التجارية و علوم التسيير",
+          "departments": [
+            "قسم التعليم المشترك في العلوم الاقتصادية،التجارية وعلوم التسيير",
+            "قسم العلوم الاقتصادية",
+            "قسم العلوم التجارية",
+            "قسم العلوم المالية والمحاسبة",
+            "قسم علوم التسيير"
+          ],
+          "sources": [
+            "https://psp.univ-biskra.dz/"
+          ]
+        },
+        {
+          "name": "كلية الاداب و اللغات",
+          "departments": [
+            "قسم اللغة والادب الفرنسي",
+            "قسم اللغة والادب الانجليزي",
+            "قسم الآداب واللغة العربية"
+          ],
+          "sources": [
+            "https://psp.univ-biskra.dz/"
+          ]
+        },
+        {
+          "name": "كلية الطب",
+          "departments": [
+            "قسم العلوم الطبية"
+          ],
+          "sources": [
+            "https://psp.univ-biskra.dz/"
+          ]
+        },
+        {
+          "name": "كلية علوم الطبيعة و الحياة و علوم الأرض و الكون",
+          "departments": [
+            "قسم علوم الأرض و الكون",
+            "قسم علوم الطبيعة و الحياة",
+            "قسم العلوم الفلاحية",
+            "قسم العلوم البيطرية",
+            "قسم الجذع المشترك علوم الطبيعة و الحياة"
+          ],
+          "sources": [
+            "https://psp.univ-biskra.dz/"
+          ]
+        },
+        {
+          "name": "كلية الهندسة المعمارية و العمران والهندسة المدنية و الري",
+          "departments": [
+            "قسم الهندسة المدنية و الري",
+            "قسم الهندسة المعمارية",
+            "قسم تسيير التقنيات الحضرية و العمران"
+          ],
+          "sources": [
+            "https://psp.univ-biskra.dz/"
+          ]
+        },
+        {
+          "name": "معهد العلوم و تقنيات النشاطات البدنية و الرياضية",
+          "departments": [
+            "قسم التربية الحركية",
+            "قسم التدريب الرياضي",
+            "قسم الادارة و التسيير الرياضي"
+          ],
+          "sources": [
+            "https://psp.univ-biskra.dz/"
+          ]
+        },
+        {
+          "name": "ملحقة المدرسة العليا للأساتذة",
+          "departments": [
+            "قسم أساتذة التعليم الإبتدائي والمتوسط"
+          ],
+          "sources": [
+            "https://psp.univ-biskra.dz/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة بن خلدون تيارت",
+      "website": "http://www.univ-tiaret.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة بومرداس – محمد بوقرة",
+      "website": "http://www.univ-boumerdes.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "Faculté des Sciences",
+          "departments": [
+            "Département Informatique",
+            "Département de Mathématiques",
+            "Département de Chimie",
+            "Département de Physique",
+            "Département de Biologie",
+            "Département Agronomie",
+            "Département de STAPS",
+            "Département Mathématiques",
+            "Département de physique",
+            "Département STAPS",
+            "Département physique",
+            "Département de chimie",
+            "Département d’Agronomie"
+          ],
+          "sources": [
+            "https://fs.univ-boumerdes.dz/"
+          ]
+        },
+        {
+          "name": "Faculté des Hydrocarbures et de la Chimie",
+          "departments": [
+            "Département Automatisation",
+            "Département génie des procédés chimiques",
+            "Département géophysique",
+            "Département Economie",
+            "Département gisement miniers et pétroliers",
+            "Département transport"
+          ],
+          "sources": [
+            "https://fhc.univ-boumerdes.dz/"
+          ]
+        },
+        {
+          "name": "Faculté de Droit et sciences politiques",
+          "departments": [
+            "قسم القانون العام",
+            "قسم القانون الخاص",
+            "قسم العلوم السياسية"
+          ],
+          "sources": [
+            "https://fdsp.univ-boumerdes.dz/"
+          ]
+        },
+        {
+          "name": "Faculté des Lettres et des langues",
+          "departments": [
+            "قسم اللغة العربية",
+            "قسم اللغة الإنجليزية",
+            "قسم اللغة الفرنسية"
+          ],
+          "sources": [
+            "https://fll.univ-boumerdes.dz/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة تامنغست",
+      "website": "https://univ-tam.dz/fr/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "Faculté des sciences économiques et commerciales et des science de gestion",
+          "departments": [
+            "قسم العلوم الاقتصادية",
+            "قسم علوم التسيير",
+            "قسم علوم المالية والمحاسبة"
+          ],
+          "sources": [
+            "https://eco.univ-tam.dz/"
+          ]
+        },
+        {
+          "name": "Faculté des lettre et langue",
+          "departments": [
+            "قسم اللغة والأدب العربي",
+            "قسم اللغات الأجنبية"
+          ],
+          "sources": [
+            "https://fll.univ-tam.dz/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة تبسة – العربي التبسي",
+      "website": "http://www.univ-tebessa.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة تيبازة – عبد الله مرسلي",
+      "website": "https://ar.cu-tipaza.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "كلية العلوم",
+          "departments": [
+            "قسم جذع مشترك للعلوم و التكنولوجيا",
+            "قسم الهندسة المدنية",
+            "قسم الالكترونيك",
+            "قسم هندسة الطرائق",
+            "قسم الهندسة الميكانكية",
+            "قسم جذع مشترك القاعدي لعلوم الطبيعة و الحياة"
+          ],
+          "sources": [
+            "https://sciences.cu-tipaza.dz/"
+          ]
+        },
+        {
+          "name": "كلية العلوم الاقتصادية و التجارية و علوم التسيير",
+          "departments": [
+            "قسم العلوم المالية والمحاسبة",
+            "قسم العلوم التجارية",
+            "قسم العلوم الاقتصادية",
+            "قسم العلوم المالية و المحاسبية",
+            "قسم علوم التسيير"
+          ],
+          "sources": [
+            "https://segc.cu-tipaza.dz/"
+          ]
+        },
+        {
+          "name": "كلية العلوم الاجتماعية و الإنسانية",
+          "departments": [
+            "قسم العلوم الإنسانية",
+            "قسم العلوم الاجتماعية"
+          ],
+          "sources": [
+            "https://shs.cu-tipaza.dz/"
+          ]
+        },
+        {
+          "name": "كلية علوم الطبيعة والحياة",
+          "departments": [
+            "قسم جذع مشترك القاعدي لعلوم الطبيعة و الحياة"
+          ],
+          "sources": [
+            "https://snv.cu-tipaza.dz/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة تيزي وزو – مولود معمري",
+      "website": "http://www.ummto.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة تيسمسيلت",
+      "website": "http://www.univ-tissemsilt.dz",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة جيجل – محمد الصديق بن يحي",
+      "website": "http://www.univ-jijel.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة جيلالي ليابس سيدي بلعباس",
+      "website": "http://www.univ-sba.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة خميس مليانة – الجيلالي بونعامة",
+      "website": "http://www.univ-km.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة خنشلة – عباس لغرور",
+      "website": "http://www.univ-khenchela.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "كلية العلوم الاجتماعية و الإنسانية كلية العلوم الاجتماعية و الإنسانية",
+          "departments": [
+            "قسم العلوم الإنسانية قسم العلوم الإنسانية",
+            "قسم العلوم الاجتماعية قسم العلوم الاجتماعية"
+          ],
+          "sources": [
+            "https://www.univ-khenchela.dz/%d9%83%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%b9%d9%84%d9%88%d9%85-%d8%a7%d9%84%d8%a7%d8%ac%d8%aa%d9%85%d8%a7%d8%b9%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d8%a5%d9%86%d8%b3%d8%a7%d9%86%d9%8a%d8%a9-1/"
+          ]
+        },
+        {
+          "name": "كلية العلوم الاقتصادية و التجارية وعلوم التسيير كلية العلوم الاقتصادية و التجارية وعلوم التسيير",
+          "departments": [
+            "قسم التعليم المشترك في العلوم الاقتصادية والتجارية وعلوم التسيير قسم التعليم المشترك في العلوم الاقتصادية والتجارية وعلوم التسيير",
+            "قسم العلوم الاقتصادية قسم العلوم الاقتصادية",
+            "قسم العلوم التجارية قسم العلوم التجارية",
+            "قسم علوم التسيير قسم علوم التسيير",
+            "قسم العلوم المالية والمحاسبية قسم العلوم المالية والمحاسبية"
+          ],
+          "sources": [
+            "https://www.univ-khenchela.dz/%d9%83%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%b9%d9%84%d9%88%d9%85-%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d8%ac%d8%a7%d8%b1%d9%8a%d8%a9-%d9%88-%d8%b9%d9%84%d9%88/"
+          ]
+        },
+        {
+          "name": "كلية علوم الطبيعة والحياة كلية علوم الطبيعة والحياة",
+          "departments": [
+            "قسم البيولوجيا الجزيئية والخلوية قسم البيولوجيا الجزيئية والخلوية",
+            "قسم البيئة و المحيط قسم البيئة و المحيط",
+            "قسم العلوم الفلاحية قسم العلوم الفلاحية",
+            "قسم علوم الطبيعة و الحياة قسم علوم الطبيعة و الحياة"
+          ],
+          "sources": [
+            "https://www.univ-khenchela.dz/%d9%83%d9%84%d9%8a%d8%a9-%d8%b9%d9%84%d9%88%d9%85-%d8%a7%d9%84%d8%b7%d8%a8%d9%8a%d8%b9%d8%a9-%d9%88-%d8%a7%d9%84%d8%ad%d9%8a%d8%a7%d8%a9-1/"
+          ]
+        },
+        {
+          "name": "كلية الحقوق و العلوم السياسية كلية الحقوق و العلوم السياسية",
+          "departments": [
+            "قسم الحقوق قسم الحقوق",
+            "قسم العلوم السياسية قسم العلوم السياسية"
+          ],
+          "sources": [
+            "https://www.univ-khenchela.dz/%d9%83%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%ad%d9%82%d9%88%d9%82-%d9%88%d8%a7%d9%84%d8%b9%d9%84%d9%88%d9%85-%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9-1/"
+          ]
+        },
+        {
+          "name": "كلية العلوم و التكنولوجيا كلية العلوم و التكنولوجيا",
+          "departments": [
+            "قسم علوم و التكنولوجيا قسم علوم و التكنولوجيا",
+            "قسم الرياضيات قسم الرياضيات",
+            "قسم الإعلام الآلي قسم الإعلام الآلي",
+            "قسم الهندسة المدنية قسم الهندسة المدنية",
+            "قسم الهندسة الميكانكية قسم الهندسة الميكانكية",
+            "قسم علوم المادة قسم علوم المادة",
+            "قسم الهندسة الكهربائية قسم الهندسة الكهربائية",
+            "قسم هندسة الطرائق قسم هندسة الطرائق"
+          ],
+          "sources": [
+            "https://www.univ-khenchela.dz/%d9%83%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%b9%d9%84%d9%88%d9%85-%d9%88%d8%a7%d9%84%d8%aa%d9%83%d9%86%d9%88%d9%84%d9%88%d8%ac%d9%8a%d8%a7-1/"
+          ]
+        },
+        {
+          "name": "كلية الآداب واللغات كلية الآداب واللغات",
+          "departments": [
+            "قسم اللغة والأدب العربي قسم اللغة والأدب العربي",
+            "قسم الآداب واللغة الفرنسية قسم الآداب واللغة الفرنسية",
+            "قسم الآداب واللغة الإنجليزية قسم الآداب واللغة الإنجليزية"
+          ],
+          "sources": [
+            "https://www.univ-khenchela.dz/%d9%83%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%a2%d8%af%d8%a7%d8%a8-%d9%88%d8%a7%d9%84%d9%84%d8%ba%d8%a7%d8%aa-1/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة سطيف1 – فرحات عباس",
+      "website": "http://www.univ-setif.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "معهد علوم وتقنيات المواد",
+          "departments": [
+            "قسم هندسة المبلمرات",
+            "قسم المواد الحيوية"
+          ],
+          "sources": [
+            "https://istm.univ-setif.dz/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة سطيف2 – لمين دباغين",
+      "website": "http://www.univ-setif2.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "كلية الآداب واللغات",
+          "departments": [
+            "قسم اللغة و الأدب العربي",
+            "قسم اللغة و الأدب الفرنسي",
+            "قسم اللغة و الأدب الإنجليزي",
+            "قسم الترجمة",
+            "قسم الترجمة:إعلان عن يوم دراسي"
+          ],
+          "sources": [
+            "http://fll.univ-setif2.dz/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة سكيكدة – 20 أوت 1955",
+      "website": "http://www.univ-skikda.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة سوق أهراس – محمد الشريف مساعدية",
+      "website": "http://www.univ-soukahras.dz/fr/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة طاهري محمد بشار",
+      "website": "https://www.univ-bechar.dz/Ar/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "كلية التكنولوجيا",
+          "departments": [
+            "قسم جدع مشترك تكنولوجيا",
+            "قسم الهندسة المدنية",
+            "قسم الهندسة المعمارية",
+            "قسم الهندسة الكهربائية",
+            "قسم الهندسة الميكانيكية"
+          ],
+          "sources": [
+            "https://www.univ-bechar.dz/Ar/index.php/03-04-05-2023/"
+          ]
+        },
+        {
+          "name": "كلية علوم الطبيعة و الحياة",
+          "departments": [
+            "قسم البيولوجيا",
+            "قسم العلوم الزراعيبة"
+          ],
+          "sources": [
+            "https://www.univ-bechar.dz/Ar/index.php/accueil-snv/"
+          ]
+        },
+        {
+          "name": "كلية العلوم الإنسانية و الاجتماعية",
+          "departments": [
+            "قسم العلوم الإنسانية",
+            "قسم العلوم الاجتماعية"
+          ],
+          "sources": [
+            "https://www.univ-bechar.dz/Ar/index.php/page-acceuil-shs/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة عبد الحميد ابن باديس مستغانم",
+      "website": "http://www.univ-mosta.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "كلية الطب",
+          "departments": [
+            "Département de Médecine",
+            "Département de Pharmacie"
+          ],
+          "sources": [
+            "https://www.univ-mosta.dz/medecine/"
+          ]
+        },
+        {
+          "name": "كلية العلوم الدقيقة والإعلام الآلي",
+          "departments": [
+            "Département Mathématiques & Informatique",
+            "Département de Physique",
+            "Département de Chimie"
+          ],
+          "sources": [
+            "https://www.univ-mosta.dz/fsei/"
+          ]
+        },
+        {
+          "name": "كلية علوم الطبيعة والحياة",
+          "departments": [
+            "Département de biologie",
+            "Département d&rsquo;agronomie",
+            "Département des sciences de la mer et de l’aquaculture",
+            "Département des sciences alimentaires",
+            "Département de Biotechnologie"
+          ],
+          "sources": [
+            "https://www.univ-mosta.dz/fsnv/"
+          ]
+        },
+        {
+          "name": "كلية العلوم والتكنولوجيا",
+          "departments": [
+            "Département Tronc Commun Sciences et Technologies",
+            "Département Génie Civil",
+            "Département Architecture",
+            "Département Génie des Procédés",
+            "Département Génie Electrique",
+            "Département Génie Mécanique"
+          ],
+          "sources": [
+            "https://www.univ-mosta.dz/fst"
+          ]
+        },
+        {
+          "name": "كلية الحقوق والعلوم السياسية",
+          "departments": [
+            "قسم القانون الخاص- جدع مشترك",
+            "قسم القانون العام"
+          ],
+          "sources": [
+            "https://www.univ-mosta.dz/fdsp"
+          ]
+        },
+        {
+          "name": "كلية العلوم الاجتماعية",
+          "departments": [
+            "قسم العلوم الإنسانية",
+            "قسم العلوم الاجتماعية"
+          ],
+          "sources": [
+            "https://www.univ-mosta.dz/fss"
+          ]
+        },
+        {
+          "name": "كلية العلوم الاقتصادية، التجارية وعلوم التسيير",
+          "departments": [
+            "قسم العلوم التجارية",
+            "قسم علوم التسيير",
+            "قسم العلوم الاقتصادية",
+            "قسم العلوم المالية والمحاسبة"
+          ],
+          "sources": [
+            "https://www.univ-mosta.dz/fsecsg/"
+          ]
+        },
+        {
+          "name": "معهد التربية البدنية والرياضية",
+          "departments": [
+            "قسم التربية البدنية والرياضية",
+            "قسم التدريب الرياضي",
+            "قسم النشاط البدني الرياضي المكيف"
+          ],
+          "sources": [
+            "https://www.univ-mosta.dz/ieps/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة عنابة – باجي مختار",
+      "website": "http://www.univ-annaba.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "Faculté des Sciences de la Terre",
+          "departments": [
+            "Département d’Aménagement du territoire",
+            "Département d’Architecture",
+            "Département de Géologie",
+            "Département des Mines",
+            "Département d&rsquo;Aménagement du territoire",
+            "Département d&rsquo;Architecture"
+          ],
+          "sources": [
+            "https://facsct.univ-annaba.dz/"
+          ]
+        },
+        {
+          "name": "Faculté de Droit et des Sciences Politiques",
+          "departments": [
+            "قسم القانون الخاص",
+            "قسم القانون الخاص (ليسانس)",
+            "قسم القانون الخاص (ماستر)",
+            "قسم القانون العام",
+            "قسم القانون العام (ليسانس)",
+            "قسم القانون العام (ماستر)",
+            "قسم العلوم السياسية",
+            "قسم العلوم السياسة (ليسانس)",
+            "قسم العلوم السياسية (ماستر)",
+            "قسم الحقوق"
+          ],
+          "sources": [
+            "https://facdr.univ-annaba.dz/"
+          ]
+        },
+        {
+          "name": "Faculté des Sciences Humaines et Sociales",
+          "departments": [
+            "قسم التعليم للجذع المشترك للعلوم الإنسانية",
+            "قسم التعليم للجذع المشترك للعلوم الاجتماعية",
+            "قسم التاريخ وعلم الآثار",
+            "قسم التربية البدنية و الرياضية",
+            "قسم الفلسفة",
+            "قسم علم المكتبات والتوثيق",
+            "قسم علم الإجتماع والديموغرافيا",
+            "قسم علم النفس والأرطوفونيا",
+            "قسم الإعلام والاتصال"
+          ],
+          "sources": [
+            "https://facschs.univ-annaba.dz/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة عين تموشنت",
+      "website": "https://www.univ-temouchent.edu.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "كلية الاقتصاد والتجارة وعلوم التسيير",
+          "departments": [
+            "Département des sciences financières et comptabilité",
+            "Département des sciences de Gestion",
+            "Département des sciences économiques"
+          ],
+          "sources": [
+            "http://fseg.univ-temouchent.edu.dz/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة غرداية",
+      "website": "http://www.univ-ghardaia.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة غليزان",
+      "website": "https://www.univ-relizane.dz/index.php/ar",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "كلية الحقوق",
+          "departments": [
+            "قسم القانون الخاص",
+            "قسم القانون العام",
+            "قسم العلوم السياسية"
+          ],
+          "sources": [
+            "https://droit.univ-relizane.dz/"
+          ]
+        },
+        {
+          "name": "كلية الآداب واللغات",
+          "departments": [
+            "قسم اللغة والأدب العربي",
+            "قسم اللغة الفرنسية",
+            "قسم اللغة الإنجليزية"
+          ],
+          "sources": [
+            "https://ll.univ-relizane.dz/"
+          ]
+        },
+        {
+          "name": "كلية علوم الطبيعة والحياة",
+          "departments": [
+            "قسم البيولوجيا",
+            "قسم البيئة والمحيط",
+            "قسم العلوم الفلاحية",
+            "قسم علوم التغذية"
+          ],
+          "sources": [
+            "https://snv.univ-relizane.dz/category/%d8%a7%d8%b3%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa-%d9%88-%d8%b5%d9%81%d9%82%d8%a7%d8%aa/"
+          ]
+        },
+        {
+          "name": "كلية العلوم الاجتماعية و الإنسانية",
+          "departments": [
+            "قسم التاريخ",
+            "قسم علوم الاعلام والاتصال",
+            "قسم علم النفس وعلوم التربية",
+            "قسم علم الاجتماع والفلسفة"
+          ],
+          "sources": [
+            "https://fssh.univ-relizane.dz/"
+          ]
+        },
+        {
+          "name": "كلية العلوم الاقتصادية و التجارية",
+          "departments": [
+            "قسم العلوم الاقتصادية",
+            "قسم علوم التسيير",
+            "قسم العلوم التجارية",
+            "قسم العلوم المالية و المحاسبة"
+          ],
+          "sources": [
+            "https://fsecsg.univ-relizane.dz/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة قالمة – 08 ماي 1945",
+      "website": "http://www.univ-guelma.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "كلية العلوم و التكنولوجيا",
+          "departments": [
+            "قسم العلوم و التكنولوجيا السنة الأولى",
+            "قسم العلوم و التكنولوجيا السنة الثانية",
+            "قسم الهندسة المعمارية",
+            "قسم الهندسة المدنية و الري",
+            "قسم الإلكترونيك و الاتصالات",
+            "قسم الهندسة الإلكتروتقنية و الأتوماتيك",
+            "قسم هندسة الطرائق",
+            "قسم الهندسة الميكانيكية"
+          ],
+          "sources": [
+            "http://fstech.univ-guelma.dz/"
+          ]
+        },
+        {
+          "name": "كلية علوم الطبيعة و الحياة و علوم الأرض و الكون",
+          "departments": [
+            "قسم علوم الطبيعة و الحياة",
+            "قسم البيولوجيا",
+            "قسم علم البيئة و هندسة المحيط"
+          ],
+          "sources": [
+            "http://fsnvstu.univ-guelma.dz/"
+          ]
+        },
+        {
+          "name": "كلية العلوم الاقتصادية والتجارية وعلوم التسيير",
+          "departments": [
+            "قسم العلوم التجارية",
+            "قسم العلوم الاقتصادية",
+            "قسم علوم التسيير"
+          ],
+          "sources": [
+            "http://fsecg.univ-guelma.dz/"
+          ]
+        },
+        {
+          "name": "كلية الحقوق و العلوم السياسية",
+          "departments": [
+            "قسم الحقوق",
+            "قسم العلوم السياسية"
+          ],
+          "sources": [
+            "https://fdsp.univ-guelma.dz/ar"
+          ]
+        },
+        {
+          "name": "كلية الآداب و اللغات",
+          "departments": [
+            "قسم اللّغة والأدب العربي",
+            "قسم الآداب واللّغة الإنكليزيّة",
+            "قسم الآداب واللّغة الفرنسيّة",
+            "قسم اللغة العربية",
+            "قسم الانجليزية",
+            "قسم الاداب اللغة الانجليزية",
+            "قسم الاداب اللغة الفرنسية"
+          ],
+          "sources": [
+            "http://fll.univ-guelma.dz/"
+          ]
+        },
+        {
+          "name": "كلية العلوم الإنسانية والاجتماعية",
+          "departments": [
+            "قسم علوم الإعلام والاتصال وعلم المكتبات",
+            "قسم التاريخ",
+            "قسم الآثار",
+            "قسم علم الاجتماع",
+            "قسم علم النفس",
+            "قسم الفلسفة"
+          ],
+          "sources": [
+            "http://fshs.univ-guelma.dz/"
+          ]
+        },
+        {
+          "name": "معهد الاتصالات السلكية واللاسلكية",
+          "departments": [
+            "قسم أنظمة الاتصالات السلكية واللاسلكية",
+            "قسم الشبكات والإشارة والاتصالات"
+          ],
+          "sources": [
+            "https://itelecom.univ-guelma.dz/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة قسنطينة 2 – عبد الحميد مهري",
+      "website": "http://www.univ-constantine2.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة قسنطينة 3- المجاهد صالح بوبنيدر",
+      "website": "http://www.univ-constantine3.dz/",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "Faculté de Médecine",
+          "departments": [
+            "Département de Médecine",
+            "Département de pharmacie",
+            "Département de Médecine Dentaire",
+            "Département de médecine",
+            "Département de médecine dentaire"
+          ],
+          "sources": [
+            "https://facmed.univ-constantine3.dz/"
+          ]
+        },
+        {
+          "name": "Faculté de Génie des Procédés",
+          "departments": [
+            "Dept Génie des Procédés",
+            "Dept Génie Pharmaceutique",
+            "Dept Génie Chimique"
+          ],
+          "sources": [
+            "https://fgp.univ-constantine3.dz/fr/"
+          ]
+        },
+        {
+          "name": "Faculté des Sciences Politiques",
+          "departments": [
+            "قسم التنظيم السياسي والإداري",
+            "قسم العلاقات الدولية"
+          ],
+          "sources": [
+            "https://fsp.univ-constantine3.dz/"
+          ]
+        },
+        {
+          "name": "Faculté des Arts et de la Culture",
+          "departments": [
+            "قسم الفنون البصرية و فنون العرض"
+          ],
+          "sources": [
+            "https://fartcul.univ-constantine3.dz/"
+          ]
+        },
+        {
+          "name": "Faculté des Sciences de l&rsquo;Information de la Communication et de l&rsquo;Audio Visuel",
+          "departments": [
+            "قسم الصحافة",
+            "قسم الاتصال و العلاقات العامة",
+            "قسم السمعي البصري"
+          ],
+          "sources": [
+            "https://finfocom.univ-constantine3.dz/"
+          ]
+        },
+        {
+          "name": "Institut de Gestion des Techniques Urbaines",
+          "departments": [
+            "قسم التقنيات الحضرية و البيئة",
+            "قسم تسيير المدن و التعمير"
+          ],
+          "sources": [
+            "https://igtu.univ-constantine3.dz/"
+          ]
+        },
+        {
+          "name": "Institut IGTU",
+          "departments": [
+            "قسم التقنيات الحضرية و البيئة",
+            "قسم تسيير المدن و التعمير"
+          ],
+          "sources": [
+            "https://igtu.univ-constantine3.dz/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة قسنطينة للعلوم الإسلامية الأمير عبد القادر",
+      "website": "http://www.univ-emir.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة قسنطينة1 – الإخوة منتوري",
+      "website": "http://www.umc.edu.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة محمد بوضياف العلوم والتكنولوجيا- وهران",
+      "website": "http://www.univ-usto.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة مصطفى اسطمبولي معسكر",
+      "website": "http://www.univ-mascara.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة ميلة – عبد الحفيظ بوالصوف",
+      "website": "https://www.centre-univ-mila.dz/?lang=fr",
+      "coverage": "partial",
+      "faculties": [
+        {
+          "name": "كلية الآداب واللغات",
+          "departments": [
+            "قسم اللغة العربية",
+            "قسم اللغات الأجنبية"
+          ],
+          "sources": [
+            "https://plateformes.univ-mila.dz/portfolio/?lang=ar"
+          ]
+        },
+        {
+          "name": "كلية الحقوق والعلوم السياسية",
+          "departments": [
+            "قسم الحقوق"
+          ],
+          "sources": [
+            "https://plateformes.univ-mila.dz/portfolio/?lang=ar"
+          ]
+        },
+        {
+          "name": "كلية الرياضيات والمعلوماتية",
+          "departments": [
+            "قسم الرياضيات",
+            "قسم الإعلام الآلي"
+          ],
+          "sources": [
+            "https://plateformes.univ-mila.dz/portfolio/?lang=ar"
+          ]
+        },
+        {
+          "name": "كلية العلوم الاقتصادية والتجارية وعلوم التسيير",
+          "departments": [
+            "قسم العلوم الاقتصادية",
+            "قسم علوم التسيير",
+            "قسم العلوم المالية والمحاسبة",
+            "قسم العلوم التجارية"
+          ],
+          "sources": [
+            "https://plateformes.univ-mila.dz/portfolio/?lang=ar"
+          ]
+        },
+        {
+          "name": "كلية العلوم والتكنولوجيا",
+          "departments": [
+            "قسم الهندسة المدنية والري",
+            "قسم الهندسة الميكانيكية والكهروميكانيك",
+            "قسم هندسة الطرائق"
+          ],
+          "sources": [
+            "https://plateformes.univ-mila.dz/portfolio/?lang=ar"
+          ]
+        },
+        {
+          "name": "كلية علوم الطبيعة والحياة",
+          "departments": [
+            "قسم علوم الأرض والكون",
+            "قسم البيوتكنولوجيا",
+            "قسم العلوم البيولوجية والفلاحية",
+            "قسم علم البيئة والمحيط"
+          ],
+          "sources": [
+            "https://plateformes.univ-mila.dz/portfolio/?lang=ar"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "جامعة ورقلة – قاصدي مرباح",
+      "website": "http://www.univ-ouargla.dz/",
+      "coverage": "partial",
+      "faculties": []
+    },
+    {
+      "name": "جامعة وهران 2 محمد بن أحمد المدعو الرائد سي موسى",
+      "website": "http://www.univ-oran2.dz/",
+      "coverage": "partial",
+      "faculties": []
+    }
+  ]
+}
