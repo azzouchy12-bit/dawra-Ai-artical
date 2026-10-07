@@ -179,6 +179,12 @@ input, select {
   border: 1px solid #d7dfeb; border-radius: 12px; outline: none; background: #fbfcfe;
 }
 input:focus, select:focus { border-color: #6090ff; box-shadow: 0 0 0 4px rgba(37,99,235,.09); }
+.field-grid label { min-width: 0; }
+.field-grid select { max-width: 100%; }
+.field-grid small { display: block; margin-top: 6px; color: var(--muted); font-size: 11px; font-weight: 400; }
+select:disabled { background: #eef2f7; color: #667085; cursor: not-allowed; }
+.directory-retry { border: 1px solid var(--line); border-radius: 10px; padding: 8px 14px; color: var(--blue); background: #f5f8ff; cursor: pointer; }
+.directory-retry[hidden] { display: none; }
 .consent { display: flex; gap: 9px; align-items: flex-start; margin: 18px 0; font-weight: 500; }
 .consent input { width: 18px; min-height: auto; margin-top: 5px; }
 .form-note { color: var(--muted); font-size: 11px; text-align: center; }
