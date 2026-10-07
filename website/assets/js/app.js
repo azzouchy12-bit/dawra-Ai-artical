@@ -56,9 +56,105 @@ nav?.querySelectorAll("a").forEach((link) => {
 const registrationForm = document.getElementById("registrationForm");
 const formMessage = document.getElementById("formMessage");
 const submitButton = registrationForm?.querySelector('button[type="submit"]');
+const emailInput = registrationForm?.elements.namedItem("email");
+const emailConfirmation = registrationForm?.elements.namedItem("emailConfirmation");
+const universityInput = document.getElementById("university");
+const facultyInput = document.getElementById("faculty");
+const departmentInput = document.getElementById("department");
+const academicStatus = document.getElementById("academicStatus");
+const directoryRetry = document.getElementById("directoryRetry");
+let universities = [];
+
+function resetSelect(select, label, values = []) {
+  select.replaceChildren(new Option(label, ""), ...values.map(value => new Option(value, value)));
+  select.disabled = values.length === 0;
+  select.setCustomValidity("");
+}
+
+function selectedUniversity() {
+  return universities.find(university => university.name === universityInput.value);
+}
+
+function selectedFaculty() {
+  return selectedUniversity()?.faculties.find(faculty => faculty.name === facultyInput.value);
+}
+
+function updateFaculties() {
+  const university = selectedUniversity();
+  resetSelect(facultyInput, "اختر الكلية / المعهد", university?.faculties.map(f => f.name) || []);
+  resetSelect(departmentInput, "اختر الكلية أولًا");
+  academicStatus.textContent = university
+    ? (university.faculties.length ? "اختر الكلية ثم القسم التابع لها." : "لم تتوفر بعد قائمة موثقة للكليات والأقسام لهذه الجامعة. يرجى التواصل مع منظم الدورة.")
+    : "اختر جامعتك لعرض الكليات والأقسام التابعة لها. القوائم قيد الاستكمال من المصادر الرسمية.";
+}
+
+universityInput?.addEventListener("change", updateFaculties);
+facultyInput?.addEventListener("change", () => {
+  resetSelect(departmentInput, "اختر القسم / التخصص", selectedFaculty()?.departments || []);
+});
+
+async function loadUniversities() {
+  resetSelect(universityInput, "جارٍ تحميل الجامعات...");
+  resetSelect(facultyInput, "اختر الجامعة أولًا");
+  resetSelect(departmentInput, "اختر الكلية أولًا");
+  directoryRetry.hidden = true;
+  try {
+    const response = await fetch("assets/data/algerian-universities.json");
+    if (!response.ok) throw new Error("Directory unavailable");
+    const data = await response.json();
+    if (!Array.isArray(data.universities) || !data.universities.length) throw new Error("Invalid directory");
+    universities = data.universities;
+    resetSelect(universityInput, "اختر الجامعة", universities.map(u => u.name));
+    academicStatus.textContent = "اختر جامعتك لعرض الكليات والأقسام التابعة لها. القوائم قيد الاستكمال من المصادر الرسمية.";
+  } catch (error) {
+    resetSelect(universityInput, "تعذر تحميل الجامعات");
+    academicStatus.textContent = "تعذر تحميل قوائم الجامعات. أعد المحاولة قبل إرسال طلب التسجيل.";
+    directoryRetry.hidden = false;
+  }
+}
+
+directoryRetry?.addEventListener("click", loadUniversities);
+if (universityInput) loadUniversities();
+
+function validateEmail() {
+  const email = emailInput.value.trim();
+  // Practical address syntax validation. Ownership requires a server-side verification message.
+  const valid = /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?)+$/.test(email)
+    && email.split("@")[0].length <= 64
+    && email.split("@")[1]?.split(".").every(label => label.length <= 63)
+    && !email.split("@")[0].startsWith(".")
+    && !email.split("@")[0].endsWith(".")
+    && !email.includes("..");
+  emailInput.setCustomValidity(!email || valid ? "" : "أدخل بريدًا إلكترونيًا صحيحًا مثل name@example.com.");
+  emailConfirmation.setCustomValidity(emailConfirmation.value.trim().toLowerCase() === email.toLowerCase()
+    ? "" : "البريدان غير متطابقين. أعد كتابة البريد الإلكتروني نفسه.");
+  return valid && emailConfirmation.validity.valid;
+}
+
+emailInput?.addEventListener("input", validateEmail);
+emailConfirmation?.addEventListener("input", validateEmail);
+emailInput?.addEventListener("blur", () => { emailInput.value = emailInput.value.trim(); validateEmail(); });
+emailConfirmation?.addEventListener("blur", () => { emailConfirmation.value = emailConfirmation.value.trim(); validateEmail(); });
+
+function resetRegistration() {
+  registrationForm.reset();
+  emailInput.setCustomValidity("");
+  emailConfirmation.setCustomValidity("");
+  updateFaculties();
+}
 
 registrationForm?.addEventListener("submit", async (event) => {
   event.preventDefault();
+
+  validateEmail();
+  if (!registrationForm.reportValidity()) return;
+  const university = selectedUniversity();
+  const faculty = selectedFaculty();
+  if (!university || !faculty || !faculty.departments.includes(departmentInput.value)) {
+    formMessage.textContent = "اختر الجامعة والكلية والقسم من القوائم المتاحة قبل التسجيل.";
+    formMessage.className = "form-message show";
+    return;
+  }
 
   if (new Date() > registrationDeadline) {
     formMessage.textContent = "انتهت فترة التسجيل لهذه الدورة.";
@@ -71,17 +167,19 @@ registrationForm?.addEventListener("submit", async (event) => {
   if (formData.get("_honey")) {
     formMessage.textContent = "تم إرسال طلب التسجيل بنجاح.";
     formMessage.className = "form-message show success";
-    registrationForm.reset();
+    resetRegistration();
     return;
   }
 
   const payload = {
     "الاسم واللقب": formData.get("fullName"),
-    "البريد الإلكتروني": formData.get("email"),
+    "البريد الإلكتروني": formData.get("email").trim(),
     "رقم الهاتف": formData.get("phone"),
     "المؤسسة / الجامعة": formData.get("institution"),
+    "الكلية / المعهد": formData.get("faculty"),
+    "القسم / التخصص": formData.get("department"),
     "الصفة": formData.get("profile"),
-    "التخصص": formData.get("specialty"),
+    "_replyto": formData.get("email").trim(),
     "وقت التسجيل": new Intl.DateTimeFormat("ar-DZ", {
       dateStyle: "full",
       timeStyle: "medium",
@@ -109,13 +207,13 @@ registrationForm?.addEventListener("submit", async (event) => {
 
     const data = await response.json().catch(() => ({}));
 
-    if (!response.ok) {
+    if (!response.ok || (data.success !== true && data.success !== "true")) {
       throw new Error(data.message || "تعذر إرسال الطلب");
     }
 
     formMessage.textContent = "تم إرسال طلب التسجيل بنجاح. شكرًا لك، سنستخدم بياناتك فقط للتواصل المتعلق بالدورة.";
     formMessage.className = "form-message show success";
-    registrationForm.reset();
+    resetRegistration();
   } catch (error) {
     console.error("Registration submission failed:", error);
     formMessage.textContent = "تعذر إرسال طلب التسجيل الآن. يرجى المحاولة مرة أخرى بعد قليل.";

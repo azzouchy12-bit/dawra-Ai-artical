@@ -175,13 +175,29 @@
               <input type="text" name="fullName" autocomplete="name" required placeholder="مثال: محمد أحمد">
             </label>
             <label>البريد الإلكتروني
-              <input type="email" name="email" autocomplete="email" required placeholder="name@example.com">
+              <input type="email" name="email" autocomplete="email" required maxlength="254" dir="ltr" placeholder="name@example.com" aria-describedby="emailHelp">
+              <small id="emailHelp">استخدم بريدًا يمكنك الوصول إليه. تأكد من كتابته دون أخطاء.</small>
+            </label>
+            <label>تأكيد البريد الإلكتروني
+              <input type="email" name="emailConfirmation" autocomplete="off" required maxlength="254" dir="ltr" placeholder="أعد كتابة بريدك الإلكتروني">
             </label>
             <label>رقم الهاتف
               <input type="tel" name="phone" autocomplete="tel" required placeholder="05 / 06 / 07 ...">
             </label>
-            <label>المؤسسة / الجامعة
-              <input type="text" name="institution" required placeholder="اسم المؤسسة">
+            <label>الجامعة
+              <select name="institution" id="university" required disabled aria-describedby="academicStatus">
+                <option value="">جارٍ تحميل الجامعات...</option>
+              </select>
+            </label>
+            <label>الكلية / المعهد
+              <select name="faculty" id="faculty" required disabled>
+                <option value="">اختر الجامعة أولًا</option>
+              </select>
+            </label>
+            <label>القسم / التخصص
+              <select name="department" id="department" required disabled>
+                <option value="">اختر الكلية أولًا</option>
+              </select>
             </label>
             <label>الصفة
               <select name="profile" required>
@@ -195,10 +211,10 @@
                 <option>أخرى</option>
               </select>
             </label>
-            <label>التخصص
-              <input type="text" name="specialty" required placeholder="مثال: إعلام آلي، هندسة، علوم...">
-            </label>
           </div>
+          <p class="form-note" id="academicStatus" role="status" aria-live="polite"></p>
+          <button class="directory-retry" id="directoryRetry" type="button" hidden>إعادة تحميل الجامعات</button>
+          <noscript><p>يرجى تفعيل JavaScript لتحميل قوائم الجامعات والكليات والأقسام قبل التسجيل.</p></noscript>
           <label class="consent">
             <input type="checkbox" required>
             <span>أوافق على استخدام هذه البيانات لغرض تنظيم الدورة والتواصل المتعلق بها فقط.</span>
