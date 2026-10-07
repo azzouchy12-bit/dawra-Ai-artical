@@ -85,7 +85,7 @@ function updateFaculties() {
   resetSelect(departmentInput, "اختر الكلية أولًا");
   academicStatus.textContent = university
     ? (university.faculties.length ? "اختر الكلية ثم القسم التابع لها." : "لم تتوفر بعد قائمة موثقة للكليات والأقسام لهذه الجامعة. يرجى التواصل مع منظم الدورة.")
-    : "اختر جامعتك لعرض الكليات والأقسام التابعة لها. القوائم قيد الاستكمال من المصادر الرسمية.";
+    : "اختر جامعة بسكرة ثم الكلية والقسم التابع لها.";
 }
 
 universityInput?.addEventListener("change", updateFaculties);
@@ -103,9 +103,21 @@ async function loadUniversities() {
     if (!response.ok) throw new Error("Directory unavailable");
     const data = await response.json();
     if (!Array.isArray(data.universities) || !data.universities.length) throw new Error("Invalid directory");
-    universities = data.universities;
+    const biskra = data.universities.find(university => university.name === "جامعة بسكرة – محمد خيضر");
+    const registrationFaculties = [
+      ["كلية العلوم الدقيقة", "كلية العلوم الدقيقة"],
+      ["كلية علوم الطبيعة و الحياة و علوم الأرض و الكون", "كلية علوم الطبيعة والحياة"],
+      ["كلية العلوم والتكنولوجيا", "كلية العلوم والتكنولوجيا"]
+    ];
+    if (!biskra) throw new Error("Biskra directory unavailable");
+    const faculties = registrationFaculties.map(([sourceName, name]) => {
+      const faculty = biskra.faculties.find(item => item.name === sourceName);
+      if (!faculty) throw new Error("Biskra faculty unavailable");
+      return { ...faculty, name };
+    });
+    universities = [{ ...biskra, faculties }];
     resetSelect(universityInput, "اختر الجامعة", universities.map(u => u.name));
-    academicStatus.textContent = "اختر جامعتك لعرض الكليات والأقسام التابعة لها. القوائم قيد الاستكمال من المصادر الرسمية.";
+    academicStatus.textContent = "اختر جامعة بسكرة ثم الكلية والقسم التابع لها.";
   } catch (error) {
     resetSelect(universityInput, "تعذر تحميل الجامعات");
     academicStatus.textContent = "تعذر تحميل قوائم الجامعات. أعد المحاولة قبل إرسال طلب التسجيل.";
